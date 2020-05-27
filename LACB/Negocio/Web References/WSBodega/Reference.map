@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://data02.justtime.cl/Ws_Limatco/Ws_Bodega.svc?xsd=xsd1" filename="Ws_Bodega.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://data02.justtime.cl/Ws_Limatco/Ws_Bodega.svc?wsdl" filename="Ws_Bodega.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://data02.justtime.cl/Ws_Limatco/Ws_Bodega.svc?xsd=xsd2" filename="Ws_Bodega0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://data02.justtime.cl/Ws_Limatco/Ws_Bodega.svc?xsd=xsd0" filename="Ws_Bodega1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

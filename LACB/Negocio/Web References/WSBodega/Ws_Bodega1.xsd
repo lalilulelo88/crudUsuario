@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://data02.justtime.cl/Ws_Limatco/Ws_Bodega.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/justtime.wcf.limatco.model" />
+  <xs:element name="Get_Guias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="identidad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numero" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Get_GuiasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/justtime.wcf.limatco.model" minOccurs="0" name="Get_GuiasResult" nillable="true" type="q1:ArrayOfGuias" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
